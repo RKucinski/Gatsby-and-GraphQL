@@ -5,7 +5,12 @@
  */
 
 module.exports = {
-  /* Your site config here */
+  
+  siteMetadata: {
+    title: 'Gatsby and GraphQL',
+    author: 'Roman Kucinski'
+  },
+
   plugins: [
     'gatsby-plugin-sass'
   ]
